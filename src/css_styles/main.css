@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:rgba(147, 212, 255, 0.932);
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+main {
+    margin: 50px 100px;
+    width: 50%;
+    float: left;
+}
+
+aside {
+    margin-left: 5%;
+    margin-top: 50px;
+    float: left;
+    width: 20%;
+    border-radius: 15px;
+}
+
+main .user {
+    background-color: rgba(255, 255, 255, 0.932);
+    color: rgba(0, 0, 0, 0.932);
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.header {
+    padding: 25px 100px;
+    font-weight: 600;
+}
+
+.EditButton {
+    float: right;
+    margin-right: 40px;
+    color: rgba(0, 0, 0, 0.932);
+    cursor: pointer;
+    transform: scale(2);
+
+}
+
+.DeleteButton {
+    float: right;
+    margin-right: 20px;
+    color: rgba(0, 0, 0, 0.932);
+    cursor: pointer;
+    transform: scale(2);
+}
+
+main .DeleteButton :hover,
+main .EditButton :hover {
+    opacity: 0.5;
+
+}
+
+form input,
+form textarea,
+form button {
+    width: 90%;
+    padding: 15px 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.932);
+    outline: none;
+    font-size: 15px;
+}
+
+form button {
+    width: 100%;
+    cursor: pointer;
+    transition: transform 500ms ease;
+}
+
+form button:hover {
+   transform: scale(1.1);
+}
+
+.user form {
+    margin-top: 10px;
+}
+
+.user form input,
+.user form textarea,
+.user form button {
+    background-color: rgba(230, 230, 230, 0.932);
+    color: rgba(0, 0, 0, 0.932);
+}
+
+.user form button:hover {
+    transform: scale(1.05);
+}
+
+.areas {
+    margin-bottom: 10px;
+}
